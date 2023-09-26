@@ -1,0 +1,29 @@
+ul {
+  color: red;
+}
+.main{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 1000px;
+}
+.main-ml{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 1000px;
+  height: 400px;
+  position: absolute;
+  left: 300px;
+  top: 100px;
+}
+.img-cen{
+  align-items: center;
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+}
+.text{
+  align-items: center;
+  text-align: center;
+}
